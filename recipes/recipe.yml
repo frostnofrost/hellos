@@ -36,6 +36,9 @@ modules:
         # - zig
         - tree-sitter-cli
         - cpupower
+    remove:
+      packages:
+        - gnome-session
     group-remove:
       packages:
         - gnome-session
