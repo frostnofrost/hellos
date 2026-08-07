@@ -36,6 +36,9 @@ modules:
         # - zig
         - tree-sitter-cli
         - cpupower
+    group-remove:
+      packages:
+        - gnome-session
     # remove:
       # packages:
         # example: removing firefox (in favor of the flatpak)
