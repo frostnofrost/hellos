@@ -20,27 +20,27 @@ modules:
   - type: dnf
     install:
       packages:
-        - sddm
-        - sway
-        - noctalia
-        - foot
-        - rofi
+        # - sddm
+        # - sway
+        # - noctalia
+        # - foot
+        # - rofi
         # - kitty
-        - gparted
-        - emacs
-        - neovim
-        - ufw
+        # - gparted
+        # - emacs
+        # - neovim
+        # - ufw
         - ripgrep
-        - fd-find
-        - fastfetch
-        # - zig
-        - tree-sitter-cli
-        - cpupower
+        # - fd-find
+        # - fastfetch
+        # # - zig
+        # - tree-sitter-cli
+        # - cpupower
     remove:
       packages:
-        - gnome-session
-        - gnome-shell
-        - gnome-shell common
+        # - gnome-session
+        # - gnome-shell
+        # - gnome-shell common
     # remove:
       # packages:
         # example: removing firefox (in favor of the flatpak)
