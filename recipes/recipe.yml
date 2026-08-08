@@ -26,12 +26,14 @@ modules:
         - foot
         - rofi
         # - kitty
-        # - gparted
+        - xfce-polkit
+        - gparted
         - emacs
         - neovim
         - ufw
         - ripgrep
         - fd-find
+        - tealdeer
         - fastfetch
         # # - zig
         - tree-sitter-cli
