@@ -20,10 +20,10 @@ modules:
   - type: dnf
     install:
       packages:
-        # - sddm
-        # - sway
+        - sddm
+        - sway
         # - noctalia
-        # - foot
+        - foot
         # - rofi
         # - kitty
         # - gparted
