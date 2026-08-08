@@ -20,13 +20,13 @@ modules:
   - type: dnf
     install:
       packages:
-        - sddm
-        - sway
+        # - sddm
+        # - sway
         # - noctalia
         - foot
         # - rofi
         # - kitty
-        # - gparted
+        - gparted
         # - emacs
         # - neovim
         # - ufw
